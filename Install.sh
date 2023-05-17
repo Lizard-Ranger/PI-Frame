@@ -77,6 +77,7 @@ chmod +rw /home/pi/MyGDrive
 chown pi /home/pi/MyGDrive
 
 # Updating Crontab for some auotmation and automatic updating.
+(crontab -u pi -l; echo "* 0 * * 1 shutdown -r now >/dev/null 2>&1" ) | crontab -u pi -
 (crontab -u pi -l; echo "@reboot /home/pi/gdconnect.sh") | crontab -u pi -
 (crontab -u pi -l; echo "@reboot /home/pi/feh.sh") | crontab -u pi -
 (crontab -u pi -l; echo "* 0 * * 5 /home/pi/Gdrive_sync.sh >/dev/null 2>&1") | crontab -u pi -
