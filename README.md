@@ -1,5 +1,5 @@
-# PI Frame
-Pi Frame is a "Digital Photo Frame" Built on a  Raspberry PI 3 with Google Drive accsess.
+# PI Frame 
+Google Drive folder powered raspberry pi Digital Photo Frame
 
 I built this as a gift for my Mother on her birthday.
 
