@@ -43,9 +43,9 @@ Installation process
 - 	Upgrades
 	
 Once complete and booted into the Desktop
-open raspi-config one of two ways
-Terminal - sudo raspi-config
-Desktop  - menu -> Preferances -> Raspberry PI Configuration
+- open raspi-config one of two ways
+	Terminal - sudo raspi-config
+	Desktop  - menu -> Preferances -> Raspberry PI Configuration
 		
 Things to change
 - System
