@@ -49,14 +49,14 @@ Once complete and booted into the Desktop
 		
 Things to change
 - **System**
-- Hostname
-- Network at Boot = Yes
+  - Hostname
+  - Network at Boot = Yes
 - **Display**
-- Screan Blanking = Yes
-- Interfaces
-- SSH = Yes
-- VNC = Yes
-- Basic config is now complete
+  - Screan Blanking = Yes
+  - Interfaces
+  - SSH = Yes
+  - VNC = Yes
+  - Basic config is now complete
 	
 	Now download the install.sh script to the Raspberry Home Directory (/home/pi)
 	Correct Permissions 
