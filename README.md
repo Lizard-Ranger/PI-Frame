@@ -65,10 +65,10 @@ Things to change
 Things to edit in the install.sh file is the Root Password.
 	
 -	nano install.sh
-		
+	- (username="root" **new_password="password"** Please replace password to your desired password.)
+
 Now you can run it.
-	./install.sh
-(username="root" **new_password="password"** Please replace password to your desired password.)
+- ./install.sh
 
 During the install prossess.
 - Update and Upgrade will run
