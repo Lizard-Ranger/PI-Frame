@@ -19,11 +19,11 @@ The requirements for this build:
  - Printed Parts (1 x Picture Frame, 2 x Leg)
 	
 Build Steps
-	Instert the DC Jack Female
-	**_NB NB Please Double check Polarity_**
-	Solder the DC Jack Female and DC Jack male ends to the DC Buck Voltage Regulator's **Input (VIN)**
-	Solder Micro USB cable to the 5v output (**NB Red is +, Black is - (VOUT)** )
-	Connect all cables and ribbon cables.
+- Instert the DC Jack Female
+- **_NB NB Please Double check Polarity_**
+- Solder the DC Jack Female and DC Jack male ends to the DC Buck Voltage Regulator's **Input (VIN)**
+- Solder Micro USB cable to the 5v output (**NB Red is +, Black is - (VOUT)** )
+- Connect all cables and ribbon cables.
 	
 If all is connected correctly the display connected to the Raspberry PI will work.
 	
