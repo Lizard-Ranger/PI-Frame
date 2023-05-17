@@ -72,7 +72,7 @@ Now you can run it.
 
 During the install prossess.
 - Update and Upgrade will run
-- Packages **ntp**, **feh** **rsync** will installed.
+- Packages **ntp**, **feh**, **rsync** and **xscreensaver will installed.
 - RustDesk will be downloaded and installed.
 - Bluetooth and screensaver will be disabled
 - Repos and keys added for **ocamlfuse** (Google Drive Connector)
@@ -88,6 +88,10 @@ Three Scripts will be created
   - Empties the trash folder.
   - Copies pictures from the MyGDrive folder to Pictures folder
   - Then reboots the Raspberry PI
+ - nosaver.sh
+   - Disables Screen Saver
+   - Disables Blank Screen
+   - Disables Display Power Management Signaling
 		
 File permissions will be corrected
 Crobtab will be updated to automate the prossess ( Will run every Friday @ Midnight).
