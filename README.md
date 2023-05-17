@@ -37,7 +37,7 @@ Installation process
 - 	It will
 - 	Resize the storage
 - 	Prompt for
-- 	Location
+- 	Location and Language
 - 	Username and Password
 -	Wireless connectivity
 - 	Upgrades
@@ -98,7 +98,7 @@ Crobtab will be updated to automate the prossess ( Will run every Friday @ Midni
 - This will supply a URL for the Google Authentication, copy it and run it from the Desktop Web browser.
 - This will prompt you to enter you Google username and Password, and ask you to allow **gfuse**
 - Once you have allowed it close the web browser, in the terminal screen you will see tocken created.
-
-Reboot the Raspberry PI.
+- Run **./GDrive_sync.sh** to Sync Pictures
+- Reboot the Raspberry PI.
 
 Thank you for using this script.
