@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # Set the username and new password
 username="root"
 new_password="password"
