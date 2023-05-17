@@ -73,8 +73,6 @@ chmod +rwx gdconnect.sh
 chown pi gdconnect.sh
 chmod +rwx GDrive_sync.sh
 chown pi GDrive_sync.sh
-chmod +rwx nosaver.sh
-chown pi nosaver.sh
 chmod +rw /home/pi/MyGDrive
 chown pi /home/pi/MyGDrive
 

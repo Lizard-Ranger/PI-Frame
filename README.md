@@ -99,3 +99,5 @@ Crobtab will be updated to automate the prossess ( Will run every Friday @ Midni
 - Once you have allowed it close the web browser, in the terminal screen you will see tocken created.
 
 Reboot the Raspberry PI.
+
+Thank you for using this script.
