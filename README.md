@@ -36,11 +36,11 @@ Installation process
 -	Boot Raspberry PI (Wait for it to complete the process)
 - 	It will
 - 	Resize the storage
-- 		Prompt for
-- 		Location
-- 		Username and Password
--		Wireless connectivity
-- 		Upgrades
+- 	Prompt for
+- 	Location
+- 	Username and Password
+-	Wireless connectivity
+- 	Upgrades
 	
 Once complete and booted into the Desktop
 open raspi-config one of two ways
@@ -48,56 +48,51 @@ Terminal - sudo raspi-config
 Desktop  - menu -> Preferances -> Raspberry PI Configuration
 		
 Things to change
--	System
--		Hostname
--		Network at Boot = Yes
--	Display
-- 		Screan Blanking = Yes
-- 		Interfaces
-- 		SSH = Yes
-- 		VNC = Yes
--	Basic config is now complete
+- System
+-	Hostname
+-	Network at Boot = Yes
+- Display
+- 	Screan Blanking = Yes
+- 	Interfaces
+- 	SSH = Yes
+- 	VNC = Yes
+- Basic config is now complete
 	
 	Now download the install.sh script to the Raspberry Home Directory (/home/pi)
 	Correct Permissions 
-		sudo chmod +x install.sh
+	sudo chmod +x install.sh
 	
 	Things to edit in the install.sh file is the Root Password.
 	
 	nano install.sh
-	
-	
-	
+		
 	Now you can run it.
 		./install.sh
 
-#!/bin/sh
+(# Set the username and new password
+username="root" **new_password="password"** Please replace password to your desired password.)
 
-# Set the username and new password
-username="root"
-**new_password="password"** Please replace password to your desired password.
-
-	During the install prossess.
-		Update and Upgrade will run
-		Packages **ntp**, **feh** **rsync** will installed.
-		RustDesk will be downloaded and installed.
-		Bluetooth and screensaver will be disabled
-		Repos and keys added for **ocamlfuse** (Google Drive Connector)
-		MyGDrive will be created and mapped.
+During the install prossess.
+ 	Update and Upgrade will run
+	Packages **ntp**, **feh** **rsync** will installed.
+	RustDesk will be downloaded and installed.
+	Bluetooth and screensaver will be disabled
+	Repos and keys added for **ocamlfuse** (Google Drive Connector)
+	MyGDrive will be created and mapped.
 		
-		Three Scripts will be created
-			feh.sh
-				Runs the slide show on the screen.
-			gdconnect.sh
-				Connects the mapped drive.
-			GDrive_sync.sh
-				Removed Pictures from the Pictures folder
-				Empties the trash folder.
-				Copies pictures from the MyGDrive folder to Pictures folder
-				Then reboots the Raspberry PI
+Three Scripts will be created
+- feh.sh
+	Runs the slide show on the screen.
+- gdconnect.sh
+	Connects the mapped drive.
+- GDrive_sync.sh
+	Removed Pictures from the Pictures folder
+	Empties the trash folder.
+	Copies pictures from the MyGDrive folder to Pictures folder
+	Then reboots the Raspberry PI
 		
-		File permissions will be corrected
-		Crobtab will be updated to automate the prossess ( Will run every Friday @ Midnight).
+File permissions will be corrected
+Crobtab will be updated to automate the prossess ( Will run every Friday @ Midnight).
 
 The last part once the script is complete from the desktop.
 Run **google-drive-ocamlfuse /home/pi/MyGDrive** from the terminal screen.
