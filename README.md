@@ -31,32 +31,32 @@ Installation process
 
 ** MB ** Keyboard and Mouse will be needed.
 
-	Image SD card with **Raspberry PI Imager**
-		Choose **Debian Bulleseye with the Raspberry Pi Desktop**
-	Boot Raspberry PI (Wait for it to complete the process)
-		It will
-			Resize the storage
-			Prompt for
-				Location
-				Username and Password
-				Wireless connectivity
-				Upgrades
+- Image SD card with **Raspberry PI Imager**
+- 	Choose **Debian Bulleseye with the Raspberry Pi Desktop**
+-	Boot Raspberry PI (Wait for it to complete the process)
+- 	It will
+- 	Resize the storage
+- 		Prompt for
+- 		Location
+- 		Username and Password
+-		Wireless connectivity
+- 		Upgrades
 	
-	Once complete and booted into the Desktop
-	open raspi-config one of two ways
-		Terminal - sudo raspi-config
-		Desktop  - menu -> Preferances -> Raspberry PI Configuration
+Once complete and booted into the Desktop
+open raspi-config one of two ways
+Terminal - sudo raspi-config
+Desktop  - menu -> Preferances -> Raspberry PI Configuration
 		
-		Things to change
-			System
-				Hostname
-				Network at Boot = Yes
-			Display
-				Screan Blanking = Yes
-			Interfaces
-				SSH = Yes
-				VNC = Yes
-	Basic config is now complete
+Things to change
+-	System
+-		Hostname
+-		Network at Boot = Yes
+-	Display
+- 		Screan Blanking = Yes
+- 		Interfaces
+- 		SSH = Yes
+- 		VNC = Yes
+-	Basic config is now complete
 	
 	Now download the install.sh script to the Raspberry Home Directory (/home/pi)
 	Correct Permissions 
