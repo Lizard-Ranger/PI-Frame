@@ -25,7 +25,7 @@ Build Steps
 - Solder Micro USB cable to the 5v output (**NB Red is +, Black is - (VOUT)** )
 - Connect all cables and ribbon cables.
 	
-If all is connected correctly the display connected to the Raspberry PI will work.
+If all is connected correctly the display connected to the Raspberry PI will work once the SD card is in and booted.
 	
 Installation process
 
