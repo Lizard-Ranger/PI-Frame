@@ -4,18 +4,18 @@ Pi Frame is a "Digital Photo Frame" Built on a  Raspberry PI 3 with Google Drive
 I built this as a gift for my Mother on her birthday.
 
 The requirements for this build:
-Raspberry pi 3
-32 Gb Micro SD card
-Wave 10.1" Capacitive Touch LCD D 1024X600 
-HDMI Male - Ribbon Connector (Straight) 
-HDMI Ribbon Cable 10cm
-DC Jack Female 2155 Pigtail Cable - 500mm
-DC Jack Male 2155 Pigtail Cable
-HDMI LCD Controller - 40 Pin 
-DC-DC Buck Voltage Regulator, Vin 6-18V Vout 5V 4.5A 
-AC Adapter 12V 5A
-Micro USB Connector + Pigtail 4 Pin Cable
-Super glue
+ - Raspberry pi 3
+ - 32 Gb Micro SD card
+ - Wave 10.1" Capacitive Touch LCD D 1024X600 
+ - HDMI Male - Ribbon Connector (Straight) 
+ - HDMI Ribbon Cable 10cm
+ - DC Jack Female 2155 Pigtail Cable - 500mm
+ - DC Jack Male 2155 Pigtail Cable
+ - HDMI LCD Controller - 40 Pin 
+ - DC-DC Buck Voltage Regulator, Vin 6-18V Vout 5V 4.5A 
+ - AC Adapter 12V 5A
+ - Micro USB Connector + Pigtail 4 Pin Cable
+ - Super glue
    
    Printed Parts 
 	1 x Picture Frame
