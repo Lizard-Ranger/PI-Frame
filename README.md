@@ -44,8 +44,8 @@ Installation process
 	
 Once complete and booted into the Desktop
 - open raspi-config one of two ways
--	Terminal - sudo raspi-config
--	Desktop  - menu -> Preferances -> Raspberry PI Configuration
+  -	Terminal - sudo raspi-config
+  -	Desktop  - menu -> Preferances -> Raspberry PI Configuration
 		
 Things to change
 - **System**
@@ -58,38 +58,36 @@ Things to change
   - VNC = Yes
   - Basic config is now complete
 	
-	Now download the install.sh script to the Raspberry Home Directory (/home/pi)
-	Correct Permissions 
-	sudo chmod +x install.sh
+- Now download the install.sh script to the Raspberry Home Directory (/home/pi)
+  - Correct Permissions 
+  - sudo chmod +x install.sh
 	
-	Things to edit in the install.sh file is the Root Password.
+Things to edit in the install.sh file is the Root Password.
 	
 	nano install.sh
 		
-	Now you can run it.
-		./install.sh
-
-(# Set the username and new password
-username="root" **new_password="password"** Please replace password to your desired password.)
+Now you can run it.
+	./install.sh
+(username="root" **new_password="password"** Please replace password to your desired password.)
 
 During the install prossess.
- 	Update and Upgrade will run
-	Packages **ntp**, **feh** **rsync** will installed.
-	RustDesk will be downloaded and installed.
-	Bluetooth and screensaver will be disabled
-	Repos and keys added for **ocamlfuse** (Google Drive Connector)
-	MyGDrive will be created and mapped.
+- Update and Upgrade will run
+- Packages **ntp**, **feh** **rsync** will installed.
+- RustDesk will be downloaded and installed.
+- Bluetooth and screensaver will be disabled
+- Repos and keys added for **ocamlfuse** (Google Drive Connector)
+- MyGDrive will be created and mapped.
 		
 Three Scripts will be created
 - feh.sh
-	Runs the slide show on the screen.
+  -	Runs the slide show on the screen.
 - gdconnect.sh
-	Connects the mapped drive.
+  -	Connects the mapped drive.
 - GDrive_sync.sh
-	Removed Pictures from the Pictures folder
-	Empties the trash folder.
-	Copies pictures from the MyGDrive folder to Pictures folder
-	Then reboots the Raspberry PI
+  -	Removed Pictures from the Pictures folder
+  - Empties the trash folder.
+  - Copies pictures from the MyGDrive folder to Pictures folder
+  - Then reboots the Raspberry PI
 		
 File permissions will be corrected
 Crobtab will be updated to automate the prossess ( Will run every Friday @ Midnight).
