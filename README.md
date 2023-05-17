@@ -58,7 +58,7 @@ Things to change
   - VNC = Yes
   - Basic config is now complete
 	
-- Now download the install.sh script to the Raspberry Home Directory (/home/pi)
+- Now download the install.sh script to the Raspberry Home Directory (/home/pi).
   - Correct Permissions 
   - sudo chmod +x install.sh
 	
@@ -71,25 +71,26 @@ Now you can run it.
 - ./install.sh
 
 During the install prossess.
-- Update and Upgrade will run
+- Update and Upgrade will run.
 - Packages **ntp**, **feh**, **rsync** and **xscreensaver** will installed.
 - RustDesk will be downloaded and installed.
-- Bluetooth and screensaver will be disabled
+- Bluetooth and screensaver will be disabled.
 - Repos and keys added for **ocamlfuse** (Google Drive Connector)
 - MyGDrive will be created and mapped.
+- Screen Saver will be disabled.
 		
-Three Scripts will be created
+Three Scripts will be created.
 - feh.sh
   -	Runs the slide show on the screen.
 - gdconnect.sh
   -	Connects the mapped drive.
 - GDrive_sync.sh
-  -	Removed Pictures from the Pictures folder
+  -	Removed Pictures from the Pictures folder.
   - Empties the trash folder.
-  - Copies pictures from the MyGDrive folder to Pictures folder
-  - Then reboots the Raspberry PI
+  - Copies pictures from the MyGDrive folder to Pictures folder.
+  - Then reboots the Raspberry PI.
 		
-File permissions will be corrected
+File permissions will be corrected.
 Crobtab will be updated to automate the prossess ( Will run every Friday @ Midnight).
 
 - The last part once the script is complete from the desktop.
