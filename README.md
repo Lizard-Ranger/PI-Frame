@@ -1,10 +1,10 @@
 # PI Frame 
-Google Drive folder powered raspberry pi Digital Photo Frame
+Google Drive folder powered Raspberry Digital Photo Frame
 
 I built this as a gift for my Mother on her birthday.
 
 The requirements for this build:
- - Raspberry pi 3
+ - Raspberry pi 3 B+
  - 32 Gb Micro SD card
  - Wave 10.1" Capacitive Touch LCD D 1024X600 
  - HDMI Male - Ribbon Connector (Straight) 
