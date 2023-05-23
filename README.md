@@ -78,6 +78,7 @@ During the install prossess.
 - Repos and keys added for **ocamlfuse** (Google Drive Connector)
 - MyGDrive will be created and mapped.
 - Screen Saver will be disabled.
+- All scripts will be placed the '/home/pi/frame' Directory.
 		
 Three Scripts will be created.
 - feh.sh
